@@ -1,0 +1,26 @@
+{
+  "name": "thenlog",
+  "version": "0.1.0",
+  "description": "js promise .then() calls logger for node and browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-x-/thenlog.git"
+  },
+  "keywords": [
+    "promise",
+    "logger"
+  ],
+  "author": "invntrm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-x-/thenlog/issues"
+  },
+  "homepage": "https://github.com/a-x-/thenlog#readme",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
+}
