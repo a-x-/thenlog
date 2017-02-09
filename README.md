@@ -20,10 +20,10 @@ Browser / Node.js
 
 
 ## Story en
-Promise chains debug is not too convenient.
+Promise chains debugging is not too convenient.
 You have to replace code shorthands (e.g. `.then(_.union)`) by long statements with a `console.log` instructions.
 
-You have to see long 3th-party call chains in browser inspector's debugger async mode.
+You have to see many 3th-party call-chains in the browser inspector's debugger in async mode.
 And `debugger` injection in node.js for async code debugging using `node debug` is not convenient way again.
 
 
