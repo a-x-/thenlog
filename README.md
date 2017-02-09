@@ -17,3 +17,19 @@ Promise.resolve(0)
 Browser / Node.js
 
 <img width="300" src="https://cloud.githubusercontent.com/assets/6201068/22793566/4675183a-ef01-11e6-88c5-c5230f64482d.png"/> <img width="500" align="right" src="https://cloud.githubusercontent.com/assets/6201068/22793390/c4d30cf6-ef00-11e6-881d-13bc216b0f09.png"/> 
+
+
+## Story en
+Promise chains debug is not too convenient.
+You have to replace code shorthands (e.g. `.then(_.union)`) by long statements with a `console.log` instructions.
+
+You have to see long 3th-party call chains in browser inspector's debugger async mode.
+And `debugger` injection in node.js for async code debugging using `node debug` is not convenient way again.
+
+
+## Story ru
+Дебажить промисы не очень удобно.
+То и дело приходится разорять изящные конструкции вида `.then(_.union)`, внедряя туда `console.log`.
+
+В дебаггере браузера часто приходится смотреть на полотна 3th-party кода.
+А в node.js с помощью `node debug` чтобы отлаживать асинхронщину приходится внедрять тут и там `debugger`, что очень неудобно, см. выше.
