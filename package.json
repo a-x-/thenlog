@@ -1,6 +1,6 @@
 {
   "name": "thenlog",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "js promise .then() calls logger for node and browser",
   "main": "index.js",
   "scripts": {
